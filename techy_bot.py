@@ -33,7 +33,7 @@ async def on_message(message):
 1.'/hello' -> For telling "hi" to the bot
 2.'/help' -> To know the commands
 3.'/play' -> Function to be added
-4.'/Good Morning'-> To say Good Morning.
+4.'/gm'-> To say Good Morning.
 5.'/gn' -> To say Good night
 6.'/ga '-> To say Good Afternoon
 
@@ -48,6 +48,17 @@ More commands to be added..
         else:
             await message.channel.send("Ah.. It's not morning. " + message.author.mention + "I am not a fool (just informing you..) I don't wanna be rude tho")
 
+    if message.content.startswith('/ga'):
+        if part_of_day == 'afternoon':
+            await message.channel.send('Good Afternoon' + message.author.mention + '.' + 'Have lunch!')
+        else:
+            await message.channel.send("Ah.. It's not noon. " + message.author.mention + "I am not a fool (just informing you..)")
+
+    if message.content.startswith('/gn'):
+        if part_of_day == 'night':
+            await message.channel.send('Good Night' + message.author.mention + '.' + 'Sweet Dreams..')
+        else:
+            await message.channel.send("Ah.. It's not night." + message.author.mention + "I am not a fool (just informing you..)")
 
 
 
