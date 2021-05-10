@@ -6,7 +6,7 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    print('bot is online as '.format(client))
+     print(f'Bot is online')
 
 def part_of_day(hour):
     return (
@@ -101,6 +101,6 @@ More commands to be added..
         await message.channel.send("Ah.. It's not night." + message.author.mention + "I am not a fool (just informing you..)")
 
 
-
+client.run('ODQwNjEyOTIzMjk4MjgzNTIx.YJavyg.Vijq7DNJVcN5VY4Me1M6mxsNP3M')
 #run
-client.run(os.environ['Token'])
+#client.run(os.environ['Token'])
