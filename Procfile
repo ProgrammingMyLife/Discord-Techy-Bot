@@ -1,1 +1,1 @@
-worker : techy_bot.py 
+worker: techy_bot.py 
