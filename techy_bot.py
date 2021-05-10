@@ -1,5 +1,7 @@
 import discord
 
+
+
 client = discord.Client()
 
 @client.event
@@ -101,4 +103,4 @@ More commands to be added..
 
 
 #run
-client.run('-gYaLQgTrVoa4LYw20tYYvcC-Qr6WzOP')
+client.run(os.environ['Token'])
