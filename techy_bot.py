@@ -1,12 +1,10 @@
 import discord
-import datetime
-from sys import stdout
 
 client = discord.Client()
 
 @client.event
 async def on_ready():
-    print('Bot is online as {0.user}'.format(client))
+    print('bot is online as '.format(client))
 
 def part_of_day(hour):
     return (
@@ -102,70 +100,5 @@ More commands to be added..
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-client.run('ODQwNjEyOTIzMjk4MjgzNTIx.YJavyg.28LQq1zsAX3VL-jLCTB87Ce5vPI')
+#run
+client.run('-gYaLQgTrVoa4LYw20tYYvcC-Qr6WzOP')
