@@ -1,6 +1,6 @@
 import discord
 import os
-
+from sys import stdout
 
 client = discord.Client()
 
@@ -33,9 +33,9 @@ async def on_message(message):
 1.'/hello' -> For telling "hi" to the bot
 2.'/help' -> To know the commands
 3.'/play' -> Function to be added
-4.'/gm'-> To say Good Morning.
-5.'/gn' -> To say Good night
-6.'/ga '-> To say Good Afternoon
+4.'/gm'-> Function to be added
+5.'/gn' -> Function to be added
+6.'/ga '-> Function to be added
 
 More commands to be added..
      ''' + message.author.mention)
