@@ -1,3 +1,4 @@
+
 import discord
 import os
 from sys import stdout
@@ -36,7 +37,6 @@ async def on_message(message):
 4.'/gm'-> Function to be added
 5.'/gn' -> Function to be added
 6.'/ga '-> Function to be added
-
 More commands to be added..
      ''' + message.author.mention)
 
