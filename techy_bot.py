@@ -41,6 +41,8 @@ More commands to be added..
      ''' + message.author.mention)
 
 
+#ok ok
+
 # all gm's
     if message.content.startswith('/gm'):
         if part_of_day == 'morning':
