@@ -63,4 +63,6 @@ Sorry for inconvenience! More functions will be added soon
         await message.channel.send('Function yet to be added...')
 
 #run
-client.run(os.environ['Token'])
+
+if __name__ == "__main__":
+     client.run(os.environ['Token'])
